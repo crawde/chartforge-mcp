@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.crawde/chartforge",
+  "description": "MCP server for ChartForge — generate stunning charts and diagrams from natural language",
+  "repository": {
+    "url": "https://github.com/crawde/chartforge-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "chartforge-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Your ChartForge API key from chartforgeai.com",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": true,
+          "name": "CHARTFORGE_API_KEY"
+        }
+      ]
+    }
+  ]
+}
