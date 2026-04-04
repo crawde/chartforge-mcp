@@ -1,1 +1,6 @@
-node_modules/\ndist/
+node_modules/
+dist/
+.mcpregistry_github_token
+.mcpregistry_registry_token
+mcp-registry-key.pem
+mcp-registry-auth

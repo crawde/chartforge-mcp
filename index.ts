@@ -9,7 +9,7 @@ const API_KEY = process.env.CHARTFORGE_API_KEY || "";
 
 const server = new McpServer({
   name: "chartforge",
-  version: "0.1.0",
+  version: "0.1.1",
 });
 
 server.tool(

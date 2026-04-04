@@ -1,7 +1,7 @@
 {
   "name": "chartforge-mcp",
-  "version": "0.1.1",
-  "mcpName": "io.github.crawde/chartforge",
+  "version": "0.1.2",
+  "mcpName": "com.chartforgeai/chartforge",
   "description": "MCP server for ChartForge — generate stunning charts and diagrams from natural language",
   "main": "dist/index.js",
   "type": "module",
